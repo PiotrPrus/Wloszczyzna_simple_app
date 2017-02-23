@@ -51,12 +51,38 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:lineSpacingExtra="8dp"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/long_text"/>
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+            <include
+                android:id="@+id/layoutForFirstCardView"
+                layout="@layout/main_text_card_view"/>
+
+            <include
+                android:id="@+id/localization_card_view"
+                layout="@layout/localization_card_view"/>
+
+            <include
+                android:id="@+id/opening_hours_card_view"
+                layout="@layout/opening_hours_card_view"/>
+
+            <include
+                android:id="@+id/price_range_card_view"
+                layout="@layout/price_range_card_view"/>
+
+            <include
+                android:id="@+id/facebook_page_card_view"
+                layout="@layout/facebook_page_card_view"/>
+
+            <include
+                android:id="@+id/gallery_card_view"
+                layout="@layout/image_gallery_card_view"/>
+            <include
+                android:id="@+id/contact_card_view"
+                layout="@layout/contact_card_view"/>
+
+        </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

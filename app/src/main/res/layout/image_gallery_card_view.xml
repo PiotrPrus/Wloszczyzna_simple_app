@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view5"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    card_view:cardCornerRadius="4dp"
+    android:elevation="2dp"
+android:layout_margin="5dp">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gallery"
+        android:scrollbarStyle="outsideInset"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:showDividers="middle">
+
+            <ImageView
+                android:layout_width="@dimen/width_image_view_gallery"
+                android:layout_height="match_parent"
+                android:src="@drawable/wloszczyzna_pizza1"
+                android:cropToPadding="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="@dimen/width_image_view_gallery"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/wloszczyzna_pizza2"
+                android:cropToPadding="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"/>
+
+            <ImageView
+                android:layout_width="@dimen/width_image_view_gallery"
+                android:layout_height="match_parent"
+                android:src="@drawable/wloszczyzna_pizza3"
+                android:cropToPadding="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="@dimen/width_image_view_gallery"
+                android:layout_height="match_parent"
+                android:src="@drawable/wloszczyzna_pizza4"
+                android:cropToPadding="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="@dimen/width_image_view_gallery"
+                android:layout_height="match_parent"
+                android:src="@drawable/wloszczyzna_deser"
+                android:cropToPadding="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="@dimen/width_image_view_gallery"
+                android:layout_height="match_parent"
+                android:src="@drawable/wloszczyzna_snow"
+                android:cropToPadding="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="@dimen/width_image_view_gallery"
+                android:layout_height="match_parent"
+                android:src="@drawable/wloszczyzna_summer"
+                android:cropToPadding="true"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</android.support.v7.widget.CardView>
