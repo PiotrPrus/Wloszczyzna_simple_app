@@ -69,19 +69,20 @@
                 layout="@layout/opening_hours_card_view"/>
 
             <include
-                android:id="@+id/price_range_card_view"
-                layout="@layout/price_range_card_view"/>
+                android:id="@+id/contact_card_view"
+                layout="@layout/contact_card_view"/>
 
             <include
                 android:id="@+id/facebook_page_card_view"
                 layout="@layout/facebook_page_card_view"/>
 
             <include
+                android:id="@+id/price_range_card_view"
+                layout="@layout/price_range_card_view"/>
+
+            <include
                 android:id="@+id/gallery_card_view"
                 layout="@layout/image_gallery_card_view"/>
-            <include
-                android:id="@+id/contact_card_view"
-                layout="@layout/contact_card_view"/>
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

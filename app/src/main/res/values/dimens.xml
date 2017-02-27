@@ -3,4 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="width_image_view_gallery">250dp</dimen>
+
+    <dimen name="default_height_card_view">55dp</dimen>
 </resources>

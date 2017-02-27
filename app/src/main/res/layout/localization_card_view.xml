@@ -5,7 +5,7 @@
     android:id="@+id/card_view"
     android:layout_gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
+    android:layout_height="@dimen/default_height_card_view"
     card_view:cardCornerRadius="4dp"
     android:elevation="2dp"
     android:layout_margin="5dp">
@@ -16,20 +16,20 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@drawable/ic_location_on_black_48dp"
+            android:src="@mipmap/localization_blue"
             android:id="@+id/localization_image_view"
             android:layout_centerVertical="true"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="20dp"/>
 
         <TextView
             android:text="@string/restauration_adress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="44dp"
+            android:layout_marginStart="90dp"
             android:id="@+id/localization_text_view"
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@+id/localization_image_view"
-            android:textSize="20sp"/>
+            android:textSize="17sp"/>
 
         <TextView
             android:text="@string/localization_zip_code"
@@ -38,8 +38,9 @@
             android:layout_marginStart="93dp"
             android:id="@+id/localization_text_view2"
             android:layout_alignBottom="@id/localization_image_view"
-            android:layout_alignStart="@+id/localization_text_view"
-            android:textSize="20sp"/>
+            android:textSize="17sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"/>
 
     </RelativeLayout>
 </android.support.v7.widget.CardView>
