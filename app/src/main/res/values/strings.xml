@@ -11,4 +11,5 @@
     <string name="price_range">10PLN - 20 PLN</string>
     <string name="opening_hours">12.00 - 22.00</string>
     <string name="days_open">Codziennie</string>
+    <string name="sub_title">Pizza i kawa</string>
 </resources>

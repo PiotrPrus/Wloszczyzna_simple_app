@@ -5,9 +5,9 @@
     android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    card_view:cardCornerRadius="4dp"
-    android:elevation="2dp"
-android:layout_margin="5dp">
+    card_view:cardCornerRadius="@dimen/my_card_corner_radius"
+    android:elevation="@dimen/my_elevation"
+    android:layout_margin="@dimen/my_margin_for_card_view">
 
     <HorizontalScrollView
         android:layout_width="match_parent"

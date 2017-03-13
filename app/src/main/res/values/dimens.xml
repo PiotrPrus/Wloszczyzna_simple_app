@@ -5,4 +5,8 @@
     <dimen name="width_image_view_gallery">250dp</dimen>
 
     <dimen name="default_height_card_view">55dp</dimen>
+    <dimen name="my_card_corner_radius">4dp</dimen>
+    <dimen name="my_elevation">2dp</dimen>
+    <dimen name="my_margin_for_card_view">5dp</dimen>
+    <dimen name="my_side_margin_for_card_view">10dp</dimen>
 </resources>

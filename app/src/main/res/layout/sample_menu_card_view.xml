@@ -2,10 +2,10 @@
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="150dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="4dp"
-    android:elevation="2dp"
-    android:layout_margin="5dp">
+    xmlns:card_view="http://schemas.android.com/tools"
+    card_view:cardCornerRadius="@dimen/my_card_corner_radius"
+    android:elevation="@dimen/my_elevation"
+    android:layout_margin="@dimen/my_margin_for_card_view">
 
     <HorizontalScrollView
         android:layout_width="match_parent"
