@@ -9,4 +9,6 @@
     <dimen name="my_elevation">2dp</dimen>
     <dimen name="my_margin_for_card_view">5dp</dimen>
     <dimen name="my_side_margin_for_card_view">10dp</dimen>
+    <dimen name="nested_view_side_margin">10dp</dimen>
+    <dimen name="app_bar_height">350dp</dimen>
 </resources>

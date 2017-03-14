@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wloszczyzna</string>
+    <string name="wloszczyzna_main_text">Włoszczyzna to alternatywa dla osiedlowych barów z pizzą, która ocieka tłuszczem,
+        a składniki gubią się w cieście pulchnym niczym gąbka. Tutaj o czymś takim nie ma mowy. Jest to bardzo poprawnie wykonana i smaczna pizza.
+        Założona przez trójkę znajomych, którzy po studiach swój niewielki lokalik otworzyli na Morenie, w Gdańsku.
+    </string>
+    <string name="facebook_adress">facebook.com/wloszczyznapizza/</string>
+    <string name="restauration_adress">Myczkowskiego 10</string>
+    <string name="localization_zip_code">80-215 Gdansk</string>
+    <string name="telephone_number">+48 733 460 471</string>
+    <string name="price_range">10PLN - 20 PLN</string>
+    <string name="opening_hours">12.00 - 22.00</string>
+    <string name="days_open">Codziennie</string>
+    <string name="sub_title">Pizza i kawa</string>
+</resources>
