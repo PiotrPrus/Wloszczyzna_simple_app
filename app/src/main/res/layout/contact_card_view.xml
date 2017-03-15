@@ -2,13 +2,15 @@
 <android.support.v7.widget.CardView
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_view"
     android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="@dimen/default_height_card_view"
     card_view:cardCornerRadius="@dimen/my_card_corner_radius"
     android:elevation="@dimen/my_elevation"
-    android:layout_margin="@dimen/my_margin_for_card_view">
+    android:layout_margin="@dimen/my_margin_for_card_view"
+    android:onClick="contactOnClick">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -19,7 +21,8 @@
             android:src="@mipmap/dialer_material_icon"
             android:layout_centerVertical="true"
             android:layout_marginStart="20dp"
-            android:id="@+id/image_view"/>
+            android:id="@+id/image_view"
+            android:contentDescription="@string/telephone_icon_image_desc"/>
 
         <TextView
             android:text="@string/telephone_number"
@@ -30,7 +33,8 @@
             android:id="@+id/textView"
             android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginEnd="25dp"
+            tools:ignore="RelativeOverlap" />
 
     </RelativeLayout>
 </android.support.v7.widget.CardView>

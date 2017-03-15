@@ -1,15 +1,16 @@
 <resources>
     <string name="app_name">Wloszczyzna</string>
     <string name="wloszczyzna_main_text">Wloszczyzna is an alternative to local bars with pizza, which is dripping with grease,
-        and the ingredients are lost in the sough like a sponge. Here such  a thing doesn't exist. It is very properly made and tasty pizza.
+        and the ingredients are lost in the sough like a sponge. Here such  a thing doesn\'t exist. It is very properly made and tasty pizza.
         Founded by three friends who studied together, their small pizzeria is open in Morena, Gdansk.
     </string>
     <string name="facebook_adress">facebook.com/wloszczyznapizza/</string>
     <string name="restauration_adress">Myczkowskiego 10</string>
-    <string name="localization_zip_code">80-215 Gdansk</string>
+    <string name="localization_zip_code">80–215 Gdansk</string>
     <string name="telephone_number">+48 733 460 471</string>
     <string name="price_range">3 EUR - 5 EUR</string>
     <string name="opening_hours">12 a.m. - 10 p.m.</string>
     <string name="days_open">Everyday</string>
     <string name="sub_title">Pizza and cafe</string>
+    <string name="telephone_icon_image_desc">telephone icon</string>
 </resources>
