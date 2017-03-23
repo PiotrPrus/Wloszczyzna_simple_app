@@ -5,7 +5,7 @@
     android:id="@+id/card_view"
     android:layout_gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/default_height_card_view"
+    android:layout_height="65dp"
     card_view:cardCornerRadius="@dimen/my_card_corner_radius"
     android:elevation="@dimen/my_elevation"
     android:layout_margin="@dimen/my_margin_for_card_view">
@@ -13,34 +13,34 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <ImageView
+            android:id="@+id/localization_image_view"
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@mipmap/localization_blue"
-            android:id="@+id/localization_image_view"
             android:layout_centerVertical="true"
-            android:layout_marginStart="20dp"/>
+            android:layout_marginStart="20dp"
+            android:src="@mipmap/localization_blue" />
 
         <TextView
-            android:text="@string/restauration_adress"
+            android:id="@+id/localization_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="90dp"
-            android:id="@+id/localization_text_view"
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@+id/localization_image_view"
-            android:textSize="17sp"/>
+            android:text="@string/restauration_adress"
+            android:textSize="17sp" />
 
         <TextView
-            android:text="@string/localization_zip_code"
+            android:id="@+id/localization_text_view2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="93dp"
-            android:id="@+id/localization_text_view2"
-            android:layout_alignBottom="@id/localization_image_view"
+            android:layout_marginEnd="21dp"
+            android:text="@string/localization_zip_code"
             android:textSize="17sp"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginTop="40dp" />
 
     </RelativeLayout>
 </android.support.v7.widget.CardView>
