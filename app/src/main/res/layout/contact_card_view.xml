@@ -9,15 +9,15 @@
     android:layout_height="@dimen/default_height_card_view"
     card_view:cardCornerRadius="@dimen/my_card_corner_radius"
     android:elevation="@dimen/my_elevation"
-    android:layout_margin="@dimen/my_margin_for_card_view"
-    android:onClick="contactOnClick">
+    android:layout_margin="@dimen/my_margin_for_card_view">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:onClick="contactOnClick">
         <ImageView
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="@dimen/icon_standard_width_and_height"
+            android:layout_height="@dimen/icon_standard_width_and_height"
             android:src="@mipmap/dialer_material_icon"
             android:layout_centerVertical="true"
             android:layout_marginStart="20dp"

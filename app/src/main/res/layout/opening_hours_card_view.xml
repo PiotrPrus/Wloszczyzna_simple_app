@@ -13,8 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="@dimen/icon_standard_width_and_height"
+            android:layout_height="@dimen/icon_standard_width_and_height"
             android:src="@mipmap/clock_blue"
             android:id="@+id/opening_hours_image_View"
             android:layout_centerVertical="true"

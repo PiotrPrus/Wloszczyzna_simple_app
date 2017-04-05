@@ -27,5 +27,17 @@ public class MainActivity extends AppCompatActivity {
         startActivity(contactIntent);
     }
 
+    public void facebookOnClick(View view){
+        Intent facebookIntent = new Intent(Intent.ACTION_VIEW);
+        facebookIntent.setData(Uri.parse("https://www."+getString(R.string.facebook_adress)));
+        startActivity(facebookIntent);
+    }
+
+    public void localizationOnClick(View view){
+        Uri gmmIntentUri = Uri.parse("geo:0, 0?q=Myczkowskiego 1, Gdansk, Wloszczyzna");
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
+    }
 
 }

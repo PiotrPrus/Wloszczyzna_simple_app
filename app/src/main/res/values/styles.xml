@@ -8,7 +8,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <!-- tyle for Title text. -->
+    <!-- Style for Title text. -->
     <style name="CustomTitleStyle">
         <item name="android:textSize">35sp</item>
         <item name="android:textStyle">bold</item>

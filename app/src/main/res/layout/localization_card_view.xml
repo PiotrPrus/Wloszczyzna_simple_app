@@ -12,12 +12,13 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:onClick="localizationOnClick">
 
         <ImageView
             android:id="@+id/localization_image_view"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="@dimen/icon_standard_width_and_height"
+            android:layout_height="@dimen/icon_standard_width_and_height"
             android:layout_centerVertical="true"
             android:layout_marginStart="20dp"
             android:src="@mipmap/localization_blue" />
